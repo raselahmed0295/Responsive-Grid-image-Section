@@ -74,3 +74,36 @@
     margin: auto;
     
 }
+
+/* here is the style of footer  */
+.footer-container{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+   
+}
+.footer-container>div{
+    width: 24%;
+}
+.news-input{
+    display: block;
+    border: none;
+    outline: 0;
+    height: 50px;
+    width: 79%;
+}
+.news-submit{
+    margin-top: 10px;
+    display: block;
+    border: none;
+    background-color: brown;
+    outline: 0;
+    height: 50px;
+    width: 80%;
+     
+}
+
